@@ -6,4 +6,5 @@ A local weather app built with Vue.js that fetches weather forecast from Openwea
 - Node.js version 8.9 or above (v10+ recommended)
 
 ## Quick Start
-- yarn serve
+- yarn install
+- yarn serve (for production yarn build)
