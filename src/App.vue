@@ -1,16 +1,20 @@
 <template>
   <div id="app">
     <div class="app" :class="period">
+      <WeatherApp :class="period"></WeatherApp>
     </div>
   </div>
 </template>
 
 <script>
+import WeatherApp from './components/weatherApp'
 
 export default {
   name: 'App',
 
-  components: {},
+  components: {
+    WeatherApp
+  },
 
   data() {
     return {
